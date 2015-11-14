@@ -1,0 +1,29 @@
+{
+  "name": "ElectronBoilerplate",
+  "version": "1.0.0",
+  "description": "electron-boilerplate",
+  "main": "./app/build/app.js",
+  "scripts": {
+    "start": "$(npm bin)/electron ./app/build/app.js",
+    "build": "$(npm bin)/gulp build",
+    "livereload": "$(npm bin)/gulp livereload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.8.34",
+    "electron-prebuilt": "^0.34.3",
+    "react": "^0.14.2",
+    "react-bootstrap": "^0.27.3",
+    "react-dom": "^0.14.2"
+  },
+  "devDependencies": {
+    "electron-connect": "^0.3.3",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.3.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-watch": "^4.3.5"
+  }
+}
